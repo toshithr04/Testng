@@ -22,7 +22,7 @@
                   </execution>
               </executions>
               <configuration>
-                  <mainClass>com.example.RunTests</mainClass>
+                  <mainClass>org.example.RunTests</mainClass>
               </configuration>
           </plugin>
 
