@@ -12,5 +12,6 @@ public class Main {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.salesforce.com/form/signup/elf-v2-login/");
+        System.out.println("hi");
         }
     }
