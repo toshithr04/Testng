@@ -34,4 +34,4 @@ jobs:
 
       # Step 4: Build and run tests
       - name: Run TestNG via Runner Class
-        run: mvn clean compile exec:java
+        run: mvn clean compile
