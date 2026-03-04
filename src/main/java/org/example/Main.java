@@ -12,6 +12,7 @@ public class Main {
     public void login(String username, String password) throws Exception {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+        System.out.println("hi");
 
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         Thread.sleep(10000);
